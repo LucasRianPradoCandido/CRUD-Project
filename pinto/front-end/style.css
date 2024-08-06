@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.1);
+}
+h2{
+  text-align: center;
+}
+
+.adicionar{
+  padding: 20px;  
+  margin-top: 20px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 44%;
+  height: 10%;
+  border-radius: 11px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.175);
+  background: white;
+}
+#name{
+  margin-left: 13px;
+}
+
+ input{
+  margin-right: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.332);
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 19px;
+}
+
+#new {
+  margin-left: 15px;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(57, 57, 226);
+  margin-left: 10px;
+}
+
+.container {
+  width: 55%;
+  height: 50%;
+  border-radius: 11px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.175);
+  background: white;
+}
+
+ .divTable {
+  padding: 10px; 
+  
+}
+
+table {
+  width: 100%;
+  border-color: rgba(240, 248, 255, 0.37);
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: whitesmoke;
+}
+
+
+thead tr th {
+  padding: 6px;
+  text-align: start;  
+  border-radius: 7px;
+  width: 20%;
+}
+
+.btn-action{
+  margin-top: 4px;
+  padding: 3px;
+  margin-right: 10px;
+  border: none;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.221);
+}
+#actions{
+  width: 5%;
+}
+#custom{
+  margin-left: 13px;
+}
+
+button {
+  cursor: pointer;
+}

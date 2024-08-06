@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+  <div class="adicionar">
+    <div>
+      <h2>Product Registration</h2>
+    </div>
+    <form id="product-form">
+      <input type="text"  id="name" placeholder="Name" required>
+      <input type="text" placeholder="Brand" required>
+      <input type="number" placeholder="Amount" required>
+      <button type="submit" id="new">New</button>
+    </form>
+  </div>
+  <div class="container">
+    <div class="divTable">
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Amount</th>
+            <th id="actions" >Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+         <!--<tr>
+            <td>bolsa cara</td>
+            <td>GUCCI</td>
+            <td>25</td>
+            <td>
+            <button id="custom" class="btn-action">
+            <span class="material-symbols-outlined">edit</span>
+            <button class="btn-action">
+              <span class="material-symbols-outlined">
+                delete
+                </span>
+            </button>
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html
