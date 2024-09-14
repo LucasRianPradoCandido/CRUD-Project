@@ -46,7 +46,7 @@ exports.updateProduct = async (req, res) => {
 exports.deleteProduct = async (req, res) => {
     try{
         const result = await database.query('DELETE FROM produtos WHERE id = $1', [req.params.id])
-        return res.status(204).send()
+        return result.status(204).send()
     }catch(error){
         return res.status(500).json({ error: error.message })  
     }

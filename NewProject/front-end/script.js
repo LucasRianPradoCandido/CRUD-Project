@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <td>${product.productname}</td>
             <td>${product.productbrand}</td>
             <td>${product.productamount}</td>
+            
             <td>
               <button class="btn-action edit" data-id="${product.id}">
                 <span class="material-symbols-outlined">edit</span>
@@ -98,4 +99,4 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     loadProdutos();
   });
-  //ideias: fazer uma barra de rolagem, mudar a forma de edit construindo uma area nova html,,,, talvez..., estilizar melhor e construir algo que lide com a criaçao de janelas, nao esquecer do problema da UUID no back-end.
+  //ideias: fazer uma barra de rolagem, mudar a forma de edit construindo uma area nova modal,,,, talvez..., estilizar melhor e construir algo que lide com a criaçao de janelas, nao esquecer do problema da UUID no back-end.
